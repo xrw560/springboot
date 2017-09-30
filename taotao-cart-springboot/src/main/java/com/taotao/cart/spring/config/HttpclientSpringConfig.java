@@ -54,7 +54,7 @@ public class HttpclientSpringConfig {
         return new IdleConnectionEvictor(manager);
     }
 
-    // 定义Httpclient对
+    // 定义Httpclient对象
     @Bean
     @Scope("prototype")
     // 多例对象
